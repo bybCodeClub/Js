@@ -1,15 +1,17 @@
  
 
-/*  this function asks for your name and age then prints it out via the web browser .  
-*/
+//  Getting started with javascript functions. Below are two very simple function scripts written in Javascript. //
 
-function my_function_name(first_name , user_age) {
+// write a function that request a user provide their name and age then prints it out via the web browser // 
+
+
+function the_function_name(user_name , user_age) {
      
-    var first_name = window.prompt(" Please enter your fisrt name") ;
+    var user_name = window.prompt(" Please enter your fisrt name") ;
 
     var user_age = window.prompt(" How old are you? ") ;
 
-    document.write(` Hello there ${first_name} you are ${user_age} years old` ) ;
+    document.write(` Hello there ${user_name} you are ${user_age} years old` ) ;
 
 }
 
