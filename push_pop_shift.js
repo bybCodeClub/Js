@@ -44,10 +44,10 @@ console.log(Array_of_names)
 
 
 
-
-for(let i = 0; i < Array_of_names.length; i++){
-    console.log((car_types[elements]))
+for(let i = 0; i < Array_of_names.forEach(i); i++){
+    console.log(Array_of_names)
 }
+
 
 
 
