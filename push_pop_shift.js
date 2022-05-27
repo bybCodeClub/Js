@@ -33,7 +33,6 @@ let removed_from_array = Array_of_names.shift()
 console.log(Array_of_names)   
 
 // This removed the first element from Array_of_name. 
-// Maybe I should use a  loop for array _of_names, so I don't have to keep console.logging the output   
 //_________________________________________________________________________________________________________________________________________________
 
 
@@ -43,10 +42,6 @@ Array_of_names.unshift("Mitch", ["King Michael", 101, "so cool 3D arrays"])
 console.log(Array_of_names)
 
 
-
-for(let i = 0; i < Array_of_names.forEach(i); i++){
-    console.log(Array_of_names)
-}
 
 
 
