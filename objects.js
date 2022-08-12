@@ -41,3 +41,43 @@ console.log(my_dog[gender]) // Bracket notation, similar to dot nataion, but thi
 my_dog.prototype.tails = "One tail"  // this line of code set all the tail properties within this object to "one tail"
 
 window.alert()
+
+// ___________________________________________________________________________________________________________________________________
+
+// Modifying object in Javascript 
+
+// To access an object property there are two ways .notation  and [bracket notation]
+
+const This_Person_object = {
+    Handsome: true,
+    rich: "very true",
+    smrt: " Well 2 out of 3 isn't bad",
+    age:   25
+} ;  
+
+//  now to access some of the properties within this object you can use .notation
+ 
+console.log(This_Person_object.Handsome)   // use the object name follow by a .   
+console.log(This_Person_object.rich) 
+
+
+// this is how you can add elements to an object 
+This_Person_object.your_Sex = "yes Please"     
+console.log(This_Person_object.your_Sex)
+
+This_Person_object.name = "Mike"
+
+
+// To delete a property from an object 
+
+delete This_Person_object.smrt
+
+console.log(This_Person_object.smrt)   // you should get undifined , as it been deleted.
+
+
+// updating property info within a object 
+
+This_Person_object.name = Michael
+
+
+document.getElement  
