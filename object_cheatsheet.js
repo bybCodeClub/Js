@@ -20,12 +20,18 @@ console.log(dream_car)    // this should give you all the information about this
 
 // object prototype:  if you wanted to add a attribute to all of the car objects without adding that attribute to all of the individual objects, 
 // you can use a object prototype for that.
-
 car.prototype.locks = "automatic"
 
 car.prototype.transmission  = "Auto"
 
 console.log(work_car)
+
+// The objects prototype is an excellent place to put methods/ functions that will be in most if not all of the object instances.
+
+car.prototype.describe = function() {
+    document.write("This amazing car has the current features");
+    document.write(`its a ${this.brand} with a ${this.engine} and was made in ${this.year}, so buy now`);
+}
 
 // changing dream cars transmission  prototype to manual.
 dream_car.transmission  = "manual"
